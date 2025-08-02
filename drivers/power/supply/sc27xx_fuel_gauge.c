@@ -171,7 +171,7 @@
 #define ATL_BATTERY_VOLTAGE_MAX_5000  810
 #define GUANYU_BATTERY_VOLTAGE_MAX_5000    510
 #define GUANYU_BATTERY_VOLTAGE_MIN_5000    310
-extern int sc27xx_fgu_bat_id = 0;
+extern int sc27xx_fgu_bat_id;
 
 struct power_supply_vol_temp_table {
 	int vol;	/* microVolts */
